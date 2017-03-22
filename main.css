@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Lora');
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("./background.jpg");
+  padding: 30px;
+}
+
+.header {
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+margin-top: 50px;
+}
+
+.head-text {
+  font-size: 90px;
+  color: brown;
+  font-family: 'Jim Nightshade', cursive;
+  text-align: center;
+
+}
+.section1 {
+  width: 100%;
+  height: 200px;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+.olde {
+  font-family: 'Lora', serif;
+font-size: 35px;
+color: brown;
+margin-bottom: 25px;
+text-align: center;
+}
+
+
+.button-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  width: 150px;
+  height: 45px;
+  background-color: brown;
+  border: none;
+  color: lightyellow;
+  border-radius: 20px;
+  font-family: 'Lora', serif;
+  outline: none;
+
+}
+.statue {
+  width: 185px;
+  height: 200px;
+}
