@@ -6,9 +6,9 @@ var insults2 = ["base-court", "bat-fowling", "beef-witted", "beetle-headed", "bo
 
 var insults3 = ["apple-john", "baggage", "barnacle", "bladder", "boar-pig", "bugbear", "bum-bailey", "canker-blossom", "clack-dish", "clotpole", "coxcomb", "codpiece", "death-token", "dewberry", "flap-dragon", "flax-wench", "flirt-gill", "foot-licker", "fustilarian", "giglet", "gudgeon", "haggard", "harpy", "hedge-pig", "horn-beast", "hugger-mugger", "joithead", "lewdster", "lout", "maggot-pie", "malt-worm", "mammet", "measle", "minnow", "miscreant", "moldwarp", "mumble-news", "nut-hook", "pigeon-egg", "pignut", "puttock", "pumpion", "ratsbane", "scut", "skainsmate", "strumpet", "varlot", "vassal", "wagtail", "knave", "blind-worm", "popinjay", "scullian", "toad", "rascal"];
 
-var insult1 = insults1[Math.floor(Math.random() * (insults1.length + 1))];
-var insult2 = insults2[Math.floor(Math.random() * (insults2.length + 1))];
-var insult3 = insults3[Math.floor(Math.random() * (insults3.length + 1))];
+var insult1 = insults1[Math.floor(Math.random() * (insults1.length))];
+var insult2 = insults2[Math.floor(Math.random() * (insults2.length))];
+var insult3 = insults3[Math.floor(Math.random() * (insults3.length))];
 
 alert("Thou " + insult1 + " " + insult2 + " " + insult3 + "!");
 
